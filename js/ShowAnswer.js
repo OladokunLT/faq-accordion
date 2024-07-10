@@ -1,8 +1,8 @@
 // alert("Welcome Class");
 
-let firstEl = document.querySelector(".first");
-let answerEl = document.querySelector(".answer");
-let iconEl = document.getElementById("plus");
+const firstEl = document.querySelector(".first");
+const answerEl = document.querySelector(".answer");
+const iconEl = document.getElementById("plus");
 
 firstEl.addEventListener("click", toggleShowAnswer);
 
