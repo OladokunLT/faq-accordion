@@ -61,6 +61,16 @@ section {
   display: flex;
   justify-content: space-between;
   gap: 20px;
+  background-color: aquamarine;
+  cursor: pointer;
+}
+
+.section {
+  margin-bottom: 24px;
+}
+
+.open {
+  display: none;
 }
 
 @media (width >= 320px) {
